@@ -1,0 +1,53 @@
+@media only screen and (max-width: 375px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: flex-start;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .result{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 350px;
+    border-radius: 0 0 30px 30px;
+  }
+  .summary{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .summary h1{
+    font-size: 25px;
+  }
+  .reaction{
+    width: 340px;
+  }
+  .memory{
+    width: 340px;
+  }
+  .verbal{
+    width: 340px;
+  }
+  .visual{
+    width: 340px;
+  }
+  .continue{
+    width: 340px;
+    background: hsl(224, 30%, 27%);
+    font-size: 18px;
+  }
+}
